@@ -1,5 +1,8 @@
+#!/bin/bash
+
 # Source my jenkins config if available
 if [ -f ~/.jenkins.sh ]; then
+  echo "SOURCING"
   . ~/.jenkins.sh
 fi
 
