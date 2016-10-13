@@ -9,6 +9,6 @@ fi
 # Source the ruby env ci settings
 . ./scripts/ci_ruby_env
 
-bundle install --without development
+bundle install
 
 COVERALLS_REPO_TOKEN=qE2nIlN6JDk5KWWYfhzg6poChzAVTTZEn bundle exec rake spec
