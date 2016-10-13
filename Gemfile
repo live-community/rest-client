@@ -12,5 +12,6 @@ end
 
 gem 'rake'
 gem 'rspec'
+gem 'webmock'
 
 gem 'coveralls', require: false
