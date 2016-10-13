@@ -1,3 +1,8 @@
+# Source my jenkins config if available
+if [ -f ~/.jenkins.sh ]; then
+  . ~/.jenkins.sh
+fi
+
 # Set ruby version
 RUBY_VERSION=2.0.0-p247
 
