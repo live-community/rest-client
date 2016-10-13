@@ -3,6 +3,9 @@ require 'rest-client'
 
 require_relative './helpers'
 
+require 'coveralls'
+Coveralls.wear!
+
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   config.raise_errors_for_deprecations!

@@ -130,3 +130,7 @@ Rake::RDocTask.new do |t|
   t.rdoc_files.include('README.md')
   t.rdoc_files.include('lib/*.rb')
 end
+
+require 'coveralls/rake/task'
+Coveralls::RakeTask.new
+task :test_with_coveralls => [:spec, :features, 'coveralls:push']
