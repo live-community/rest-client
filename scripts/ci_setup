@@ -11,4 +11,4 @@ fi
 
 bundle install --without development
 
-COVERALLS_REPO_TOKEN=qE2nIlN6JDk5KWWYfhzg6poChzAVTTZEn bundle exec spec
+COVERALLS_REPO_TOKEN=qE2nIlN6JDk5KWWYfhzg6poChzAVTTZEn bundle exec rake spec
